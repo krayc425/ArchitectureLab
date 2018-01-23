@@ -1,0 +1,7 @@
+x = 12345;
+r = x;
+y = 0;
+while not r = y do 
+    y = r;
+    r = (r + x / r) / 2;
+end

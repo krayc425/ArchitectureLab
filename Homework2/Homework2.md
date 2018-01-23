@@ -15,12 +15,13 @@
 请使用 `sklnst.jar` 中的解释器 `cn.edu.nju.sklnst.whilex.eval.Interpreter` 来运行完成的小程序 `test.whl`。
 
 ```
-[r := x];
-[y := 0];
-while [not (r == y)] do (
-    [y := r];
-    [r := ((r + x / r) / 2)];
-)
+x = 12345;  // Your number
+r = x;
+y = 0;
+while not r = y do 
+    y = r;
+    r = (r + x / r) / 2;
+end
 ```
 
 ### 2. 请使用 Moodle 上的库函数来构建一个 Java 程序, 用于记录提取“自定义 While 语言”小程序中的变量。请使用 Visitor 设计模式来完成这一程序。
