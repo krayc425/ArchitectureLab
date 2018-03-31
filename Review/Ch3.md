@@ -4,14 +4,14 @@
 
 设计模式是：对被用来在特定场景下解决一般设计问题的类和相互通信的对象的描述。
 
-### 四个基本要素
+### 四个基本要素（考点）
 
 * 模式名称（Pattern Name)：一个助记名，它用一两个词来描述模式的问题、解决方案和效果。
 * 问题（Problem）: 描述了应该在何时使用模式。
 * 解决方案（Solution）：描述了设计的组成部分，它们之间的相互关系和各自的职责和协作方式。
 * 效果（Consequence）：描述了模式应用的效果及使用模式应该权衡的问题。
 
-## 访问者模式（Visitor Pattern）★
+## 访问者模式（Visitor Pattern）（重点★）
 
 ### 动机
 
@@ -27,7 +27,7 @@
 
 ### 结构
 
-![Visitor 模式](https://ws4.sinaimg.cn/large/006tNc79gy1fpvaue9pn5j31kw159dsy.jpg)
+![](https://github.com/songkuixi/ArchitectureLab/blob/master/Review/Ch3_1.png)
 
 ### 参与者
 
@@ -89,24 +89,20 @@ abstract class Visitor {
 class ConcreteVisitor1 : Visitor {
     // Methods
     override public void VisitConcreteElementA(ConcreteElementA concreteElementA) {
-        Console.WriteLine("{0} visited by {1}",
-        concreteElementA, this); 
+        Console.WriteLine("{0} visited by {1}", concreteElementA, this); 
     }
     override public void VisitConcreteElementB(ConcreteElementB concreteElementB) {
-        Console.WriteLine("{0} visited by {1}",
-        concreteElementB, this); 
+        Console.WriteLine("{0} visited by {1}", concreteElementB, this); 
     }
 }
 
 class ConcreteVisitor2 : Visitor {
     // Methods
     override public void VisitConcreteElementA(ConcreteElementA concreteElementA) {
-        Console.WriteLine("{0} visited by {1}",
-        concreteElementA, this); 
+        Console.WriteLine("{0} visited by {1}", concreteElementA, this); 
     }
     override public void VisitConcreteElementB(ConcreteElementB concreteElementB) {
-        Console.WriteLine("{0} visited by {1}",
-        concreteElementB, this); 
+        Console.WriteLine("{0} visited by {1}", concreteElementB, this); 
     }
 }
 
@@ -152,4 +148,9 @@ static void Main(string[] args) {
 ### 小结
 
 访问者模式的主要优点在于使得增加新的访问操作变得很容易，将有关元素对象的访问行为集中到一个访问者对象中，而不是分散到一个个的元素类中，还可以跨过类的等级结构访问属于不同的等级结构的元素类，让用户能够在不修改现有类层次结构的情况下，定义该类层次结构的操作；其主要缺点在于增加新的元素类很困难，而且在一定程度上破坏系统的封装性。
+
+### 编译器的例子
+
+### WhileX 语言（理解）
+
 
