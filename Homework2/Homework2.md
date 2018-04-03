@@ -8,7 +8,7 @@
 
 ![](https://ws2.sinaimg.cn/large/006tKfTcgy1fnfd6uu0ybj305o02kglj.jpg)
 
-提示：可以用牛顿法来实现这一程序,迭代获得需要的结果,针对这一问题的牛顿法迭代公式如下:
+提示：可以用牛顿法来实现这一程序，迭代获得需要的结果，针对这一问题的牛顿法迭代公式如下:
 
 ![](https://ws1.sinaimg.cn/large/006tKfTcgy1fnfd70zxrij30900880sv.jpg)
 
@@ -21,6 +21,22 @@ y = 0;
 while not r = y do 
     y = r;
     r = (r + x / r) / 2;
+end
+```
+
+### 参考答案
+
+```
+begin:
+    rn = 1
+    a1 = rn * rn
+    a2 = (rn + 1) * (rn + 1)
+    
+    while x < a1 or a2 < x or x = a2 do 
+        rn = ((x / rn) + rn) / 2
+        a1 = rn * rn
+        a2 = (rn + 1) * (rn + 1)
+    end
 end
 ```
 

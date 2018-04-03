@@ -4,7 +4,7 @@
 
 每个状态记录执行过程中的一条**程序路径**
 
-## 状态的内容 / 执行状态ES的内容（背出）
+## 状态的内容（背出）
 
 * PC 计数器
 * 符号（符号变量）
@@ -13,11 +13,11 @@
 
 ## 算法流程（理解）
 
-![](https://github.com/songkuixi/ArchitectureLab/blob/master/Review/Ch6_1.png)
+![](https://github.com/songkuixi/ArchitectureLab/blob/master/Review/Pics/Ch6_1.png)
 
 ## 符号执行的内存管理（理解）
 
-![](https://github.com/songkuixi/ArchitectureLab/blob/master/Review/Ch6_2.png)
+![](https://github.com/songkuixi/ArchitectureLab/blob/master/Review/Pics/Ch6_2.png)
 
 示例代码，对照 PPT 查看五个标注点的内存状态
 

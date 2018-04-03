@@ -27,7 +27,7 @@
 
 ### 结构
 
-![](https://github.com/songkuixi/ArchitectureLab/blob/master/Review/Ch3_1.png)
+![](https://github.com/songkuixi/ArchitectureLab/blob/master/Review/Pics/Ch3_1.png)
 
 ### 参与者
 

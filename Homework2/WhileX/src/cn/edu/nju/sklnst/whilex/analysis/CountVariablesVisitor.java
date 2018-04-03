@@ -11,13 +11,17 @@ public class CountVariablesVisitor extends Visitor<Integer> {
 
     @Override
     public Integer visit(UseVariable n) {
-        resultSet.add(n.var);
+        if (n != null) {
+            resultSet.add(n.var);
+        }
         return null;
     }
 
     @Override
     public Integer visit(AssignStatement s) {
-        resultSet.add(s.v);
+        if (s != null) {}
+           resultSet.add(s.v);
+        }
         return null;
     }
 

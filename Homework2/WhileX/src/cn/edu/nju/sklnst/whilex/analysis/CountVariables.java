@@ -14,7 +14,10 @@ public class CountVariables {
         CountVariablesVisitor countVariablesVisitor = new CountVariablesVisitor();
         Node node = readNode(filename);
 
-        if (node == null) return;
+        if (node == null) {
+        	return;
+        }
+        
         System.out.print("java cn.edu.nju.sklnst.whilex.analysis.CountVariables ");
         System.out.println(args[0]);
         if (node instanceof Program) {
