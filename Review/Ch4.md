@@ -1,17 +1,17 @@
 # Ch4 视图
 
-## 4+1模型（重点★）
+## 4 + 1 模型（重点★）
 
 **注：除了以下文字概念外，还需参考 PPT 上四种进程的关系图及符号标记方法。其中图示不需要会画，只需看到能认出即可。**
 
 ### 概述
 
-Kruchten 1995年提出。
+Kruchten 1995 年提出。
 
 * 基本思想：单个视图难以全面描述，“横看成岭竖成峰，远近高低各不同”。
 * 解决方案：多个视图来刻画同一个体系结构。
 
-![](https://github.com/songkuixi/ArchitectureLab/blob/master/Review/Pics/Ch4_1.png)
+![](https://ws3.sinaimg.cn/large/006tNc79gy1fpzktrrk6vj31kw15hnfn.jpg)
 
 ### 逻辑视图
 

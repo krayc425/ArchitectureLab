@@ -70,4 +70,10 @@ loss = tf.reduce_mean(tf.square(tf.subtract(ys, prediction, name="Sub"), name="S
 train_step = tf.train.GradientDescentOptimizer(0.1).minimize(loss, name="minimize")
 ```
 
+#### 数据流图
+
+![](https://ws2.sinaimg.cn/large/006tNc79gy1fpztt5431dj319y1is7eh.jpg)
+
+![](https://ws4.sinaimg.cn/large/006tNc79gy1fpztt7spb2j31540jgq74.jpg)
+
 

@@ -13,11 +13,11 @@
 
 ## 算法流程（理解）
 
-![](https://github.com/songkuixi/ArchitectureLab/blob/master/Review/Pics/Ch6_1.png)
+![](https://ws1.sinaimg.cn/large/006tNc79gy1fpzkuldxvlj31kw15htw1.jpg)
 
 ## 符号执行的内存管理（理解）
 
-![](https://github.com/songkuixi/ArchitectureLab/blob/master/Review/Pics/Ch6_2.png)
+![](https://ws3.sinaimg.cn/large/006tNc79gy1fpzkuw2smnj31kw15hh30.jpg)
 
 示例代码，对照 PPT 查看五个标注点的内存状态
 
@@ -26,14 +26,14 @@ make_symbolic(x);
 make_symbolic(y);       // 1
 z=x+y;                  // 2
 if (z == 0)
-    y=z+y;              // 3
+    y = z + y;          // 3
    return y;
 if (z < 0)
-    x=x-z;              // 4
+    x = x - z;          // 4
    return x;
  else
-   z=0;                 // 5
-   return z-x;  
+   z = 0;               // 5
+   return z - x;  
 ```
 
 ## 第二种设计架构（理解）
