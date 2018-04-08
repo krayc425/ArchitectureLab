@@ -24,7 +24,7 @@ while not r = y do
 end
 ```
 
-### 参考答案
+#### 参考答案
 
 ```
 begin:

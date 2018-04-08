@@ -19,7 +19,7 @@ public class CountVariablesVisitor extends Visitor<Integer> {
 
     @Override
     public Integer visit(AssignStatement s) {
-        if (s != null) {}
+        if (s != null) {
            resultSet.add(s.v);
         }
         return null;

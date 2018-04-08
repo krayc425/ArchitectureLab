@@ -16,6 +16,6 @@ Homework & Notes for Software Design and Architecture.
 4. [Ch4 视图](https://github.com/songkuixi/ArchitectureLab/blob/master/Review/Ch4.md)
 5. ~~Ch5 用例建模~~
 6. [Ch6 符号执行](https://github.com/songkuixi/ArchitectureLab/blob/master/Review/Ch6.md)
-7. Ch7 深度学习框架
+7. [Ch7 深度学习框架](https://github.com/songkuixi/ArchitectureLab/blob/master/Review/Ch7.md)
 
 
